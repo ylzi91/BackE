@@ -83,12 +83,16 @@ public class Main {
                             System.out.println("Non puoi inserire un numero minore di 0");
                         }
                     } while (perTrg < 0);
-                    System.out.println("L'area del triangolo è: " + Main.perimetri(base, altezza, perTrg));
+                    System.out.println("L'area del triangolo è: " + perimetri(base, altezza, perTrg));
+                    flag = false;
+                }
+                else {
+                    per = Main.perimetri(base, altezza);
+                    System.out.println(per + " E' il perimetro del rettangolo");
+                    flag = false;
                 }
 
-                per = Main.perimetri(base, altezza);
-                System.out.println(per + " E' il perimetro del rettangolo");
-                flag = false;
+
             } catch (Exception e) {
                 System.out.println("Errore nel tipo");
                 scan.next();
