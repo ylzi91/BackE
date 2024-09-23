@@ -20,7 +20,7 @@ public class Main {
         System.out.println("Scrivi due numeri da moltiplicare");
         int result = Main.moltiplica(scan.nextInt(), scan.nextInt());
         System.out.println(result);
-        System.out.println(Main.concatena("Ciao", 23));
+        System.out.println(Main.concatena("Ciao", 24));
 
     }
 }
