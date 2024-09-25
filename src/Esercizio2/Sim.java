@@ -22,7 +22,7 @@ public class Sim {
     }
 
     public void ricaricaCredito(double credito) {
-        this.credito = credito;
+        this.credito += credito;
     }
 
     public void avviaChiamata(String num, int min) {
